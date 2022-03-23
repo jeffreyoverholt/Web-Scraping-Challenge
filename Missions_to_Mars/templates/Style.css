@@ -1,0 +1,11 @@
+.jumbotron {
+  font-family:'Times New Roman', Times, serif;
+  color: darkgray;
+  text-align: center;
+}
+
+table {
+  font-family:'Times New Roman', Times, serif;
+  color: black;
+  background-color: white;
+}
