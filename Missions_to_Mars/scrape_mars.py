@@ -76,7 +76,7 @@ def scrape_info():
     df.set_index("Facts", inplace = True)
 
 
-    Mars_facts_HTML = df.to_html().replace('\n','')
+    Mars_facts_HTML = df.to_html(classes="table table-striped")
 
 
     # Mars Hemispheres

@@ -31,9 +31,11 @@
           <img src="{{ mars['Featured Image URL'] }}" alt="Featured Mars Image">
         </div>
         <div class="col-md-4">
-          <div class="card">
+          <div class="row">
             <h4>Mars Facts</h4>
-            {{ mars['Fact Table'] }}
+            <!-- https://nuvirtdatapt1-ice5461.slack.com/archives/C0396PCGPTJ -->
+            <!-- https://jinja.palletsprojects.com/en/3.0.x/templates/#working-with-automatic-escaping -->
+            {{ mars.Mars_facts_HTML |safe }}
           </div>
         </div>
       </div>
