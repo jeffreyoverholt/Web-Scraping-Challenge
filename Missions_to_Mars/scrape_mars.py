@@ -116,8 +116,8 @@ def scrape_info():
         "news_title": news_title,
         "news_p": news_p,
         "Featured Image URL": img_url,
-        "Fact Table": Mars_facts_HTML,
-        "Hemisphere Images": hemi_images_url
+        "Mars_facts_HTML": Mars_facts_HTML,
+        "hemi_images_url": hemi_images_url
     }
 
     # Close Browser

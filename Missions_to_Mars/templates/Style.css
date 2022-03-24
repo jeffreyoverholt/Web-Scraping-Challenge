@@ -1,6 +1,6 @@
 .jumbotron {
   font-family:'Times New Roman', Times, serif;
-  color: darkgray;
+  color: darkgray !important;
   text-align: center;
 }
 
@@ -8,4 +8,13 @@ table {
   font-family:'Times New Roman', Times, serif;
   color: black;
   background-color: white;
+}
+
+.frame {
+  width: 300px;
+  height: 250px;
+  border: 3px solid #ccc;
+  background: #eee;
+  margin: auto;
+  padding: 15px 10px;
 }
